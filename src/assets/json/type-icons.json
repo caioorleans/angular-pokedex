@@ -1,0 +1,77 @@
+{
+  "iconImageFiles": [
+    {
+      "iconName": "bug-type",
+      "iconPath": "/assets/type-icons/bug.svg"
+    },
+    {
+      "iconName": "dark-type",
+      "iconPath": "/assets/type-icons/dark.svg"
+    },
+    {
+      "iconName": "dragon-type",
+      "iconPath": "/assets/type-icons/dragon.svg"
+    },
+    {
+      "iconName": "electric-type",
+      "iconPath": "/assets/type-icons/electric.svg"
+    },
+    {
+      "iconName": "fairy-type",
+      "iconPath": "/assets/type-icons/fairy.svg"
+    },
+    {
+      "iconName": "fighting-type",
+      "iconPath": "/assets/type-icons/fighting.svg"
+    },
+    {
+      "iconName": "fire-type",
+      "iconPath": "/assets/type-icons/fire.svg"
+    },
+    {
+      "iconName": "flying-type",
+      "iconPath": "/assets/type-icons/flying.svg"
+    },
+    {
+      "iconName": "ghost-type",
+      "iconPath": "/assets/type-icons/ghost.svg"
+    },
+    {
+      "iconName": "grass-type",
+      "iconPath": "/assets/type-icons/grass.svg"
+    },
+    {
+      "iconName": "ground-type",
+      "iconPath": "/assets/type-icons/ground.svg"
+    },
+    {
+      "iconName": "ice-type",
+      "iconPath": "/assets/type-icons/ice.svg"
+    },
+    {
+      "iconName": "normal-type",
+      "iconPath": "/assets/type-icons/normal.svg"
+    },
+    {
+      "iconName": "poison-type",
+      "iconPath": "/assets/type-icons/poison.svg"
+    },
+    {
+      "iconName": "psychic-type",
+      "iconPath": "/assets/type-icons/psyhic.svg"
+    },
+    {
+      "iconName": "rock-type",
+      "iconPath": "/assets/type-icons/rock.svg"
+    },
+    {
+      "iconName": "steel-type",
+      "iconPath": "/assets/type-icons/steel.svg"
+    },
+    {
+      "iconName": "water-type",
+      "iconPath": "/assets/type-icons/water.svg"
+    }
+  ],
+  "customIcons": []
+}
