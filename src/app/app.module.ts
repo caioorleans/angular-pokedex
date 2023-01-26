@@ -7,11 +7,13 @@ import { AngularSvgIconPreloaderModule } from 'angular-svg-icon-preloader';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IconTypeComponent } from './components/icon-type/icon-type.component';
+import { PokemonCardComponent } from './components/pokemon-card/pokemon-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    IconTypeComponent
+    IconTypeComponent,
+    PokemonCardComponent
   ],
   imports: [
     BrowserModule,
