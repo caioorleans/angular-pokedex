@@ -1,8 +1,14 @@
-<div class="container__pokemon-card">
-  <div class="container-image__pokemon-card" style="background-image: url('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/25.png')">
-    <div *ngFor="let type of types" class="container-type__pokemon-card">
-      <app-icon-type [type]="type"></app-icon-type>
+<div class="container__pokemon-card {{types[0]}}">
+  <div class="container-number-type__pokemon-card">
+    <p>#41</p>
+    <div class="container-types__pokemon-card">
+      <div *ngFor="let type of types" class="container-type__pokemon-card">
+        <app-icon-type [type]="type"></app-icon-type>
+      </div>
     </div>
   </div>
-  <p>Pikachu</p>
+  <div class="pokemon-img__pokemon-card">
+    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/25.png" alt="">
+  </div>
+  <p class="pokemon-name__pokemon-card">Pikachu</p>
 </div>
