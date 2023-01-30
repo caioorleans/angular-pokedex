@@ -10,7 +10,9 @@ import { PokedexService } from './services/pokedex.service';
 })
 export class AppComponent implements OnInit{
   title = 'angular-pokedex';
-  pokedex:Pokemon[] = []
+  pokedex:Pokemon[] = [];
+  filteredPokemon:Pokemon[] = [];
+  filterBy:string="";
 
   constructor(private pokedexService:PokedexService){}
 
@@ -30,8 +32,20 @@ export class AppComponent implements OnInit{
           }
           this.pokedex.push(poke);
         })
+        this.filteredPokemon = this.pokedex;
       },
       error: err => console.log(err)
     })
+  }
+
+  set filter(value:string){
+    this.filterBy = value;
+    console.log(this.filterBy);
+
+    this.filteredPokemon = this.pokedex.filter((pokemon:Pokemon) => pokemon.name.indexOf(this.filterBy.toLowerCase())>-1);
+    console.log(this.filteredPokemon);
+  }
+  get filter(){
+    return this.filterBy;
   }
 }

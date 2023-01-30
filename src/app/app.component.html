@@ -1,2 +1,3 @@
 <router-outlet></router-outlet>
-<app-pokemon-card *ngFor="let pokemon of  pokedex" [pokemon]="pokemon"></app-pokemon-card>
+<input [(ngModel)]="filter">
+<app-pokemon-card *ngFor="let pokemon of  filteredPokemon" [pokemon]="pokemon"></app-pokemon-card>
