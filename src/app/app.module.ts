@@ -9,12 +9,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IconTypeComponent } from './components/icon-type/icon-type.component';
 import { PokemonCardComponent } from './components/pokemon-card/pokemon-card.component';
+import { AllPokemonComponent } from './pages/all-pokemon/all-pokemon.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IconTypeComponent,
-    PokemonCardComponent
+    PokemonCardComponent,
+    AllPokemonComponent
   ],
   imports: [
     BrowserModule,

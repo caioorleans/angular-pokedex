@@ -14,19 +14,5 @@ export class PokemonCardComponent implements OnInit{
   constructor(private pokemonService:PokemonService){}
 
   ngOnInit(): void {
-    this.getPokemon();
-  }
-
-  getPokemon(){
-    this.pokemonService.getPokemon(this.pokemon.name).subscribe({
-      next: (res) => {
-        this.pokemon.image = res.sprites.other.home.front_default;
-        res.types.forEach(type => {
-          this.pokemon.types.push(type.type.name);
-        });
-        console.log(this.pokemon)
-      },
-      error: err => console.log(err)
-    })
   }
 }

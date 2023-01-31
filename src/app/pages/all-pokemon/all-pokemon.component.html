@@ -1,0 +1,5 @@
+<input [(ngModel)]="filter">
+<div class="container-pokemon__all-pokemon">
+  <app-pokemon-card *ngFor="let pokemon of  filteredPokemon" [pokemon]="pokemon"></app-pokemon-card>
+</div>
+
