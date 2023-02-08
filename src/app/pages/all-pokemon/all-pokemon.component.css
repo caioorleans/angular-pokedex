@@ -1,8 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
+
+.container-title-filter{
+  width: 98%;
+  height: 70px;
+  margin: auto;
+  border-bottom: 2px solid rgb(216, 216, 216);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 48px;
+  color: rgb(71, 71, 71);
+  margin-right: 20px;
+}
+
+.title span{
+  font-family: 'Prompt', sans-serif;
+  color: rgb(255, 68, 68);
+}
+
 .container-pokemon__all-pokemon{
   margin:auto;
   width: 700px;
   display:flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   flex-wrap: wrap;
+}
+
+.pokemon-name-filter__all-pokemon{
+  padding:10px;
+  border-radius: 30px;
+  border: 2px solid rgb(216, 216, 216);
+}
+
+.pokemon-name-filter__all-pokemon:focus{
+  outline: none;
+  border: 2px solid rgb(139, 139, 139);
+}
+
+::placeholder{
+  color:rgb(216, 216, 216);
 }

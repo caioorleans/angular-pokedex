@@ -3,9 +3,17 @@
   color: #92BC2C;
 }
 
+.bug:hover{
+  box-shadow: 0 0 20px #92BC2C;
+}
+
 .dark {
   border: 10px solid #595761;
   color:#595761;
+}
+
+.dark:hover{
+  box-shadow: 0 0 20px #595761;
 }
 
 .dragon {
@@ -13,9 +21,17 @@
   color: #0C69C8;
 }
 
+.dragon:hover{
+  box-shadow: 0 0 20px #0C69C8;
+}
+
 .electric {
   border: 10px solid #F2D94E;
   color:#F2D94E;
+}
+
+.electric:hover{
+  box-shadow: 0 0 20px #F2D94E;
 }
 
 .fire {
@@ -23,9 +39,17 @@
   color:#FBA54C;
 }
 
+.fire:hover{
+  box-shadow: 0 0 20px #FBA54C;
+}
+
 .fairy {
   border:10px solid #EE90E6;
   color:#EE90E6;
+}
+
+.fairy:hover{
+  box-shadow: 0 0 20px #EE90E6;
 }
 
 .fighting {
@@ -33,9 +57,17 @@
   color:#D3425F;
 }
 
+.fighting:hover{
+  box-shadow: 0 0 20px #D3425F;
+}
+
 .flying {
   border:10px solid #A1BBEC;
   color:#A1BBEC;
+}
+
+.flying:hover{
+  box-shadow: 0 0 20px #A1BBEC;
 }
 
 .ghost {
@@ -43,9 +75,17 @@
   color: #5F6DBC;
 }
 
+.ghost:hover{
+  box-shadow: 0 0 20px #5F6DBC;
+}
+
 .grass {
   border:10px solid #5FBD58;
   color:#5FBD58;
+}
+
+.grass:hover{
+  box-shadow: 0 0 20px #5FBD58;
 }
 
 .ground {
@@ -53,9 +93,17 @@
   color: #DA7C4D;
 }
 
+.ground:hover{
+  box-shadow: 0 0 20px #DA7C4D;
+}
+
 .ice {
   border:10px solid #75D0C1;
   color: #75D0C1;
+}
+
+.ice:hover{
+  box-shadow: 0 0 20px #75D0C1;
 }
 
 .normal {
@@ -63,9 +111,17 @@
   color: #A0A29F;
 }
 
+.normal:hover{
+  box-shadow: 0 0 20px #A0A29F;
+}
+
 .poison {
   border:10px solid #B763CF;
   color: #B763CF;
+}
+
+.poison:hover{
+  box-shadow: 0 0 20px #B763CF;
 }
 
 .psychic {
@@ -73,9 +129,17 @@
   color: #FA8581;
 }
 
+.psychic:hover{
+  box-shadow: 0 0 20px #FA8581;
+}
+
 .rock {
   border:10px solid #C9BB8A;
   color: #C9BB8A;
+}
+
+.rock:hover{
+  box-shadow: 0 0 20px #C9BB8A;
 }
 
 .steel {
@@ -83,8 +147,16 @@
   color: #5695A3;
 }
 
+.steel:hover{
+  box-shadow: 0 0 20px #5695A3;
+}
+
 .water {
   border:10px solid #539DDF;
   color: #539DDF;
+}
+
+.water:hover{
+  box-shadow: 0 0 20px #539DDF;
 }
 

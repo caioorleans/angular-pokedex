@@ -10,13 +10,15 @@ import { AppComponent } from './app.component';
 import { IconTypeComponent } from './components/icon-type/icon-type.component';
 import { PokemonCardComponent } from './components/pokemon-card/pokemon-card.component';
 import { AllPokemonComponent } from './pages/all-pokemon/all-pokemon.component';
+import { PokeInfoComponent } from './pages/poke-info/poke-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IconTypeComponent,
     PokemonCardComponent,
-    AllPokemonComponent
+    AllPokemonComponent,
+    PokeInfoComponent
   ],
   imports: [
     BrowserModule,

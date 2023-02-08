@@ -1,5 +1,8 @@
-<input [(ngModel)]="filter">
+<div class="container-title-filter">
+  <h1 class="title">Poké<span>Dex</span></h1>
+  <input class="pokemon-name-filter__all-pokemon" [(ngModel)]="filter" type="text" placeholder="Pokémon name">
+</div>
 <div class="container-pokemon__all-pokemon">
-  <app-pokemon-card *ngFor="let pokemon of  filteredPokemon" [pokemon]="pokemon"></app-pokemon-card>
+  <a *ngFor="let pokemon of  filteredPokemon" routerLink="/pokemon/{{pokemon.pokedexNumber}}"><app-pokemon-card  [pokemon]="pokemon"></app-pokemon-card></a>
 </div>
 
