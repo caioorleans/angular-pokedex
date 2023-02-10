@@ -3,6 +3,10 @@
   <input class="pokemon-name-filter__all-pokemon" [(ngModel)]="filter" type="text" placeholder="Pokémon name">
 </div>
 <div class="container-pokemon__all-pokemon">
-  <a *ngFor="let pokemon of  filteredPokemon" routerLink="/pokemon/{{pokemon.pokedexNumber}}"><app-pokemon-card  [pokemon]="pokemon"></app-pokemon-card></a>
+  <app-pokemon-card
+    *ngFor="let pokemon of  filteredPokemon"
+    [pokemon]="pokemon"
+    (click)="goToPokemonInfo(pokemon.name)"
+  ></app-pokemon-card>
 </div>
 

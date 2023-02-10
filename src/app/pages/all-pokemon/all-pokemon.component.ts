@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { PokedexService } from 'src/app/services/pokedex.service';
 import { PokemonService } from 'src/app/services/pokemon.service';
 import { Pokemon } from 'src/models/pokemon';
@@ -13,10 +14,20 @@ export class AllPokemonComponent implements OnInit{
   filteredPokemon:Pokemon[] = [];
   filterBy:string="";
 
-  constructor(private pokedexService:PokedexService, private pokemonService:PokemonService){}
+  constructor(
+    private pokedexService:PokedexService,
+    private pokemonService:PokemonService,
+    private router:Router
+  ){}
 
   ngOnInit(): void {
-      this.getPokedex("kanto");
+    let aux = localStorage.getItem("allPokemon");
+    if(aux){
+      this.pokedex = JSON.parse(aux);
+      this.filteredPokemon = this.pokedex;
+      return;
+    }
+    this.getPokedex("kanto");
   }
 
   getPokedex(region:string){
@@ -60,5 +71,10 @@ export class AllPokemonComponent implements OnInit{
   }
   get filter(){
     return this.filterBy;
+  }
+
+  goToPokemonInfo(pokemonName: string){
+    localStorage.setItem("allPokemon", JSON.stringify(this.pokedex));
+    this.router.navigate([`pokemon/${pokemonName}`]);
   }
 }
