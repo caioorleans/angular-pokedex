@@ -11,6 +11,8 @@ import { IconTypeComponent } from './components/icon-type/icon-type.component';
 import { PokemonCardComponent } from './components/pokemon-card/pokemon-card.component';
 import { AllPokemonComponent } from './pages/all-pokemon/all-pokemon.component';
 import { PokeInfoComponent } from './pages/poke-info/poke-info.component';
+import { BaseStatsComponent } from './components/base-stats/base-stats.component';
+import { StatComponent } from './components/base-stats/stat/stat.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { PokeInfoComponent } from './pages/poke-info/poke-info.component';
     IconTypeComponent,
     PokemonCardComponent,
     AllPokemonComponent,
-    PokeInfoComponent
+    PokeInfoComponent,
+    BaseStatsComponent,
+    StatComponent
   ],
   imports: [
     BrowserModule,

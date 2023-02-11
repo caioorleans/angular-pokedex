@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>Estatísticas Básicas</h2>
+  <div class="stats">
+    <div class="stat" *ngFor="let stat of stats">
+      <app-stat [stat]="stat" [total]="total" [type]="type"></app-stat>
+    </div>
+  </div>
+</div>

@@ -11,5 +11,11 @@ export type PokemonResponse = {
       name:string,
       url:string
     }
+  }[],
+  stats: {
+    base_stat: number,
+    stat: {
+      name:string
+    }
   }[]
 }

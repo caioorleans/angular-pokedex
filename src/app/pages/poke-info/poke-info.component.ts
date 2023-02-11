@@ -13,7 +13,8 @@ export class PokeInfoComponent implements OnInit{
     pokedexNumber: 0,
     name:"",
     image: "",
-    types:[""]
+    types:[""],
+    stats: []
   };
 
   constructor(

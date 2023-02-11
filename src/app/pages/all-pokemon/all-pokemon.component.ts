@@ -38,7 +38,8 @@ export class AllPokemonComponent implements OnInit{
             pokedexNumber: pokemon.entry_number,
             name: pokemon.pokemon_species.name,
             image: "",
-            types: []
+            types: [],
+            stats: []
           }
           poke = this.getPokemon(poke);
           this.pokedex.push(poke);
@@ -55,6 +56,13 @@ export class AllPokemonComponent implements OnInit{
         pokemon.image = res.sprites.other.home.front_default;
         res.types.forEach(type => {
           pokemon.types.push(type.type.name);
+        });
+        res.stats.forEach(type => {
+          let auxType = {
+            name: type.stat.name,
+            value: type.base_stat
+          }
+          pokemon.stats.push(auxType);
         });
       },
       error: err => console.log(err)

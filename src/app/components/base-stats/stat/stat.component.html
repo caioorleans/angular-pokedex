@@ -1,0 +1,7 @@
+<div class="container">
+  <p class="stat-name">{{stat.name |uppercase}}</p>
+  <p class="stat-value">{{stat.value}}</p>
+  <div class="stat-bar">
+    <div class="stat-internal-bar" [ngStyle]="{'width.%': porcentagem * 2}" [ngClass]="type"></div>
+  </div>
+</div>
