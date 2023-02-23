@@ -5,7 +5,7 @@ import { Pokemon } from 'src/models/pokemon';
 @Component({
   selector: 'app-poke-info',
   templateUrl: './poke-info.component.html',
-  styleUrls: ['./poke-info.component.css', './type.style.component.css']
+  styleUrls: ['./poke-info.component.css','./poke-info-responsive.component.css', './type.style.component.css']
 })
 export class PokeInfoComponent implements OnInit{
 

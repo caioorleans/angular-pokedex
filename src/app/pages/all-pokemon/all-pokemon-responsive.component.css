@@ -1,0 +1,14 @@
+@media only screen and (max-width: 700px) {
+  .container-title-filter{
+    width:100%;
+    flex-direction: column;
+  }
+  .title{
+    margin-right: 0;
+  }
+  .container-pokemon__all-pokemon{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}

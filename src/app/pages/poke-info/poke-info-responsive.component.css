@@ -1,0 +1,23 @@
+@media only screen and (max-width: 700px){
+  .container-flex{
+    width: 300px;
+  }
+  .pokemon-name-types{
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .pokemon-number-name{
+    margin-bottom: 10px;
+  }
+  .container-flex-pokemon{
+    flex-direction: column;
+  }
+  .pokemon-image{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .more-info{
+    width: 90%;
+    margin-right: 0;
+  }
+}

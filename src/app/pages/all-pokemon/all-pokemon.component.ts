@@ -7,7 +7,7 @@ import { Pokemon } from 'src/models/pokemon';
 @Component({
   selector: 'app-all-pokemon',
   templateUrl: './all-pokemon.component.html',
-  styleUrls: ['./all-pokemon.component.css']
+  styleUrls: ['./all-pokemon.component.css','./all-pokemon-responsive.component.css']
 })
 export class AllPokemonComponent implements OnInit{
   pokedex:Pokemon[] = [];

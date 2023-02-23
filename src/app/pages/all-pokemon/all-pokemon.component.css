@@ -3,7 +3,7 @@
 
 .container-title-filter{
   width: 98%;
-  height: 70px;
+  padding-top: 10px;
   margin: auto;
   border-bottom: 2px solid rgb(216, 216, 216);
   margin-bottom: 20px;
@@ -35,6 +35,7 @@
 
 .pokemon-name-filter__all-pokemon{
   padding:10px;
+  margin-bottom: 10px;
   border-radius: 30px;
   border: 2px solid rgb(216, 216, 216);
 }
