@@ -13,6 +13,7 @@ import { AllPokemonComponent } from './pages/all-pokemon/all-pokemon.component';
 import { PokeInfoComponent } from './pages/poke-info/poke-info.component';
 import { BaseStatsComponent } from './components/base-stats/base-stats.component';
 import { StatComponent } from './components/base-stats/stat/stat.component';
+import { AddZerosPipe } from './pipes/add-zeros.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { StatComponent } from './components/base-stats/stat/stat.component';
     AllPokemonComponent,
     PokeInfoComponent,
     BaseStatsComponent,
-    StatComponent
+    StatComponent,
+    AddZerosPipe
   ],
   imports: [
     BrowserModule,

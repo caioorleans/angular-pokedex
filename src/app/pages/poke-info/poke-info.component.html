@@ -1,7 +1,7 @@
 <div class="container">
   <div class="container-flex" [ngClass]="pokemon.types[0]">
     <div class="pokemon-name-types">
-      <h1 class="pokemon-number-name">#{{pokemon.pokedexNumber}} - {{pokemon.name | titlecase}}</h1>
+      <h1 class="pokemon-number-name">#{{pokemon.pokedexNumber | addZeros}} - {{pokemon.name | titlecase}}</h1>
       <div class="types">
         <div class="type" *ngFor="let type of pokemon.types"><app-icon-type [type]="type"></app-icon-type></div>
       </div>

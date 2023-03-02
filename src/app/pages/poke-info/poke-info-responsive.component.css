@@ -6,6 +6,9 @@
     flex-direction: column;
     margin-bottom: 10px;
   }
+  .types{
+    justify-content: space-around;
+  }
   .pokemon-number-name{
     margin-bottom: 10px;
   }

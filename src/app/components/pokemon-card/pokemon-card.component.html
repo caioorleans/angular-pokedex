@@ -1,6 +1,6 @@
 <div class="container__pokemon-card {{pokemon.types[0]}}">
   <div class="container-number-type__pokemon-card">
-    <p>#{{pokemon.pokedexNumber | number: '1.0-0' }}</p>
+    <p>#{{pokemon.pokedexNumber | addZeros}}</p>
     <div class="container-types__pokemon-card">
       <div *ngFor="let type of pokemon.types" class="container-type__pokemon-card">
         <app-icon-type [type]="type"></app-icon-type>
