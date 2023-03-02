@@ -5,7 +5,7 @@ import { Pokemon } from 'src/models/pokemon';
 @Component({
   selector: 'app-pokemon-card',
   templateUrl: './pokemon-card.component.html',
-  styleUrls: ['./pokemon-card.component.css','./type-style.component.css','./pokemon-card-responsive.component.css']
+  styleUrls: ['./pokemon-card.component.css','./pokemon-card-responsive.component.css','../../styles/type.style.css','../../styles/type-hover.style.css']
 })
 export class PokemonCardComponent implements OnInit{
 

@@ -1,0 +1,72 @@
+.bug:hover{
+  box-shadow: 0 0 20px #92BC2C;
+}
+
+.dark:hover{
+  box-shadow: 0 0 20px #595761;
+}
+
+.dragon:hover{
+  box-shadow: 0 0 20px #0C69C8;
+}
+
+.electric:hover{
+  box-shadow: 0 0 20px #F2D94E;
+}
+
+.fire:hover{
+  box-shadow: 0 0 20px #FBA54C;
+}
+
+.fairy:hover{
+  box-shadow: 0 0 20px #EE90E6;
+}
+
+.fighting:hover{
+  box-shadow: 0 0 20px #D3425F;
+}
+
+.flying:hover{
+  box-shadow: 0 0 20px #A1BBEC;
+}
+
+.ghost:hover{
+  box-shadow: 0 0 20px #5F6DBC;
+}
+
+.grass:hover{
+  box-shadow: 0 0 20px #5FBD58;
+}
+
+.ground:hover{
+  box-shadow: 0 0 20px #DA7C4D;
+}
+
+.ice:hover{
+  box-shadow: 0 0 20px #75D0C1;
+}
+
+.normal:hover{
+  box-shadow: 0 0 20px #A0A29F;
+}
+
+.poison:hover{
+  box-shadow: 0 0 20px #B763CF;
+}
+
+.psychic:hover{
+  box-shadow: 0 0 20px #FA8581;
+}
+
+.rock:hover{
+  box-shadow: 0 0 20px #C9BB8A;
+}
+
+.steel:hover{
+  box-shadow: 0 0 20px #5695A3;
+}
+
+.water:hover{
+  box-shadow: 0 0 20px #539DDF;
+}
+
